@@ -4,5 +4,5 @@ RUN mkdir doc2
 RUN touch file2
 RUN apt install apache2 -y
 RUN apt install git -y
-RUN mkdir doc3 doc4
+RUN mkdir doc3 doc4 doc5
 CMD "echo", "build successfully"
